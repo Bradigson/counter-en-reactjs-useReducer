@@ -1,0 +1,75 @@
+:root{
+    --size: 80px;
+    --sizeBtn: 23px;
+}
+.btn-success, .btn-danger{
+    margin-right: 20px;
+}
+.btn-success, .btn-danger, .btn-warning{
+    font-size: var(--sizeBtn);
+}
+.state{
+    font-size: var(--size);
+}
+.bxs-moon, .bxs-sun{
+    font-size:35px;
+}
+.bxs-sun{
+    color:#fff;
+    text-shadow: 0 0 5px #F1C40F,
+    0 0 15px #F1C40F,
+    0 0 30px #F1C40F,
+    0 0 60px #F1C40F,
+    0 0 120px #F1C40F;
+}
+.bxs-moon{
+    color:#eee;
+    text-shadow: 0 0 5px #5DADE2,
+    0 0 15px #5DADE2,
+    0 0 30px #5DADE2,
+    0 0 60px #5DADE2;
+}
+.btn_dark{
+    margin-right:10px;
+    
+}
+
+.btn_dark:focus{
+    border:none;
+    box-shadow: none;
+    outline: none;
+}
+
+.darkMode-Container{
+    
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    background:#eee;
+    height:100vh;
+    transition: all 1s;
+}
+.DarkMode{
+    background: #34495E;
+    height: 100vh;
+    transition:all 1s;
+}
+
+.darkModeCard{
+    background:#F1C40F ;
+    transition:all 1s;
+
+}
+.dakModeFooter{
+    background: #34495E;
+    transition:all 1s;
+}
+.dakrOpacity{
+    background:#5D6D7E;
+    transition:all 1s;
+    border: #5D6D7E;
+}
